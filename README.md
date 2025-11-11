@@ -29,68 +29,33 @@ O CEO quer saber como a empresa está avançando em relação as metas estabelec
 * Cidade do Cliente
 * Status do Pedido
 
-##  Medidas DAX
+##  Medidas DAX / Tabela Calendário
 
 <br>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/6d5ad201-c95f-4f4e-8800-afb72db8a535" />
+<img src="https://github.com/user-attachments/assets/5fe7a3f3-82bc-436f-8747-24efa7f2254e" />
 </div>
 
-## Respondendo a 1º solicitação do CEO:
+## DAX Ano Anterior:
 
 <br>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/316949f8-b640-4771-8811-a918a9469589" />
-</div>
-
-<br>
-<br>
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/4e3a73b6-1906-4e37-ad38-906efca993a7" />
+<img src="https://github.com/user-attachments/assets/7ce1dfe7-162b-4873-b52f-eeb416802d8a" />
 </div>
 
 <br>
 
-### Meta Variavel:
-   *Permite que o CEO ajuste de acordo com a meta que ele queira ver, tornando uma visualização dinamica em tempo real.*
-   *Atualizando o cartão "Vendedores que bateram a meta"*
+* A função **SAMEPERIODLASTYEAR** é uma função de **inteligência de dados temporais** que retorna uma tabela que contém uma coluna de datas deslocadas para um ano antes das datas na coluna dates especificada, no
+contexto atual.
 
-## Respondendo a 3º solicitação do CEO:
+* No exemplo, através da expressão **COUNTROWS** contamos a quantidade de linhas da tabela orders.
+* Ao passar como argumento de filtro a função **SAMEPERIODLASTYEAR**, faremos a contagem de linhas de um ano antes relacionado ao contexto que estamos analisando.
 
-<div align="center">
-<img src="https://github.com/user-attachments/assets/05fd9b33-cc5c-4a46-828b-9e97b1d3b318" />
-</div>
+  <br>
 
-<br>
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/38144eb3-8906-4640-8c4b-008fa9786b1e" />
-</div>
-
-<br>
-
-## Respondendo a 5º solicitação do CEO:
-
-<br>
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/321f8896-569f-4ddd-9f75-83dbb0c5275a" />
-</div>
-
-<br>
-
-### Função Filter:
-   *Retorna uma tabela que representa um subconjunto de outra tabela ou expressão.*
-
-### Função Values:
-   *Quando o parâmetro de entrada é um nome de coluna, retorna uma tabela de uma coluna que contém os valores distintos da coluna especificada.*
-   *Valores duplicados são removidos e apenas valores exclusivos são retornados.*
-
-<br>
-
+  
 ---
 
 # Dashboard
@@ -98,25 +63,10 @@ O CEO quer saber como a empresa está avançando em relação as metas estabelec
 <br>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/e4b6c450-61f1-4a31-afaa-48747f83203e" />
+<img src="https://github.com/user-attachments/assets/cf8702f4-908f-4432-be81-8430a0f8d855" />
 </div>
 
 <br>
 
-### Cartões:
-* Soma de Vendas
-* Quantidade de Vendedores
-* Valor médio por item vendido
-* Vendedores que bateram a meta
-* Ticket Médio de vendas por Vendedor
 
-### Segmentações:
-* Meta Variavel
-* Sellers ID
-* State do Vendedor
-### Gráficos:
-
-* Funil de Sellers X Maior Frete
-* Mapa de Vendas X Localização (Granularidade de País, Estado e Cidade)
-* Tabela de Sellers ID, Soma de Frete (Com formatação condicional), Média de Frete e Frete Acima de 25K (Com formatação condicional).
 
