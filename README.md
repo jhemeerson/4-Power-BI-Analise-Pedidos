@@ -1,5 +1,7 @@
 # 4-Power-BI-Analise-Pedidos
 
+Painel Interativo utilizando **Análise de Inteligência Temporal** com a criação de uma **tabela calendário**.
+
 # O Problema de Negócio:
 
 O CEO quer saber como a empresa está avançando em relação as metas estabelecidas para o ano atual e como a empresa está posicionada em relação aos dados de anos anteriores, ou seja, a partir desse ponto o CEO deseja explorar **análises de inteligência temporal**.
@@ -55,7 +57,18 @@ contexto atual.
 
   <br>
 
-  
+  ## Dax Pedidos 2017 / 2018:
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/d72f15cf-a228-4a8e-804b-fa7a43a1ff1f" />
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/96246fe9-47ca-4887-9c3d-2168341abebd" />
+</div>
+
 ---
 
 # Dashboard
